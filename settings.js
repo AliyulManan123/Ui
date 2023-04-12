@@ -4,17 +4,17 @@ const fs = require('fs')
 const chalk = require('chalk')
 global.autoTyping = false//mati //true idup
 global.autoRecord = false 
-global.packname = "hi"//
-global.author = "TOBOT WA\n\n\nMenerima Jasa pembuatan Sticker Gratis\n\n\n\n\n\n\n\nKamu Nanya? Cara Buat sticker Gratis?\n\n\n\n\n\n\n\nNih Nomor Bot:628562177" //ur sticker watermark author
-global.namamuu = "len1"
-global.aliasmu = "len2"
-global.wm = "TOBOT AI" 
+global.packname = "©ShanAI"//
+global.author = "©ShanAI × إحسان" //ur sticker watermark author
+global.namamuu = "إحسان"
+global.aliasmu = "إحسان"
+global.wm = "ShanAI" 
 global.sessionName = 'session'
 global.prefa = ['','!','.','#','&']
 global.sp = ''
 global.mess = {
-    success: 'Nih Kak Hehehe ><',
-    wait: '⋘ 𝑙𝑜𝑎𝑑𝑖𝑛𝑔 𝑑𝑎𝑡𝑎... ⋙',
+    success: 'Done √',
+    wait: 'Sedang mengumpulkan data!',
 }
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {

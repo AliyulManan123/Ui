@@ -1,6 +1,6 @@
 const ora = require('ora');
 const spinner = ora({
-    text: 'Made By Lenttobs',
+    text: 'Made By Ikhsan',
     color: 'blue'
 }).start();
 require('./settings')
